@@ -1,0 +1,9 @@
+a) bloco de código contendo JSX, CSS, JS, bibliotecas, de acordo com a finalidade de seu uso, o que o torna dinâmico e reutilizável 
+
+b) sintaxe que une html com javascript 
+
+c) metodo render() em componentes de classes é o metodo que renderiza o JSX que deseja retornar, parecido com o return em componentes funcionais
+
+d) props sao parametros usados em componentes para que possamos utilizar valores atribuidos em um componente em outro componente por exemplo
+
+f) state é o estado atribuido a um elemento (uma const por exemplo) em um componente, estado esse que podemos manipular através de métodos como useState() e setState() 

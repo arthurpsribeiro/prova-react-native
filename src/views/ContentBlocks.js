@@ -8,15 +8,7 @@ export default (props) => {
 	return (
 		<View style={styles.container}>
 			<Header navigation={props.navigation} />
-			<Text>Home</Text>
-			<Button
-				title="Ir para tela 1"
-				onPress={() => props.navigation.navigate("Tela1")}
-			/>
-			<Button
-				title="Ir para tela 2"
-				onPress={() => props.navigation.navigate("Tela2")}
-			/>
+			<Text>Content Blocks</Text>
 		</View>
 	);
 };

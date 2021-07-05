@@ -2,13 +2,15 @@ import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createDrawerNavigator } from "react-navigation-drawer";
 
-import Home from "./views/Home";
-import Tela1 from "./views/View1";
-import Tela2 from "./views/View2";
 import Menu from "./components/Menu";
+import Dashboard from "./views/Dashboard";
+import DefaultCards from "./views/DefaultCards";
+import PricingTables from "./views/PricingTables";
+import ContentBlocks from "./views/ContentBlocks";
+import Forms from "./views/Forms";
 
 const menuConfig = {
-	initialRouteName: "Home",
+	initialRouteName: "Dashboard",
 	contentComponent: Menu,
 	contentOptions: {
 		labelStyles: {
@@ -23,9 +25,12 @@ const menuConfig = {
 };
 
 const menuRoutes = {
-	Home,
-	Tela1,
-	Tela2,
+	Dashboard,
+	DefaultCards,
+	PricingTables,
+	ContentBlocks,
+	PricingTables,
+	Forms,
 };
 
 const menuNavigator = createDrawerNavigator(menuRoutes, menuConfig);
